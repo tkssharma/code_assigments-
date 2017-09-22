@@ -1,0 +1,15 @@
+External Merge Sort
+External sorting is required when the data being sorted do not fit into sort data and save it on hard disk 
+
+sorting 900 megabytes 
+RAM : 100 mb
+
+1) Read 100 MB of data at a time and store that on disk 
+2 ) Now we have 9 chunks stored on memory 
+3) 9 chunks having 100 mb each
+
+Now get first 10 MB of each chunk 
+*10 mb of each chunk 90 MB and sort data 
+similarly do it 10 times 
+
+Keep output memory as 10 MB IF FULL GET NEXT 10 MB  
